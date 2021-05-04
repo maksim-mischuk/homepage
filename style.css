@@ -1,28 +1,29 @@
-.background {     
+.background {
     position: relative;
-}
-
-.foreground{  
+  }
+  
+  .foreground {
     top: 145px;
     left: 5px;
-    position: absolute;  
-    pointer-events:none;
-}
-
-.background:hover~ .foreground{
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .background:hover ~ .foreground {
     transition: linear 2s;
     top: 120px;
     left: 90px;
     bottom: 100px;
     position: absolute;
-}
-
-.grow:hover {
+  }
+  
+  .grow:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
   }
-
-.cursorDefault{
+  
+  .cursorDefault {
     cursor: default;
-}
+  }
+  
